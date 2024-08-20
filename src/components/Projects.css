@@ -1,0 +1,50 @@
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project-card {
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project-thumbnail {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .project-title {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .project-description {
+    font-size: 1em;
+    color: #555;
+  }
+  
+  .project-link {
+    display: inline-block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
+  .project-languages {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
